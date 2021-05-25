@@ -126,6 +126,7 @@ const Login = () => {
       <Content className="site-layout" style={{ marginTop: 60 }}>
         <div className="site-layout-background" style={{ minHeight: 380 }}>
           <Card
+            className="content-card"
             title={
               <Row style={{ width: "90%" }}>
                 <Col span={12}>{getComponent()}</Col>

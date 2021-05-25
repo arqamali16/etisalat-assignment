@@ -33,12 +33,6 @@ const LoginLogic = kea({
     ],
   },
 
-  //   events: ({ actions, values }) => ({
-  //     afterMount: () => {
-  //       // Only load data on the client if it's not already there 👈
-  //     },
-  //   }),
-
   listeners: ({ actions, props }) => ({
     login: async ({ email, password, callback }: any) => {
       try {

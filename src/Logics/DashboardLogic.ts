@@ -1,7 +1,6 @@
 import React from "react";
 import { kea } from "kea";
 import axios from "axios";
-import { Modal } from "antd";
 
 const DashboardLogic = kea({
   path: () => ["kea", "dashboard"],
