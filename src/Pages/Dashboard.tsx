@@ -1,3 +1,7 @@
+/**
+ * @author Mohammed Arqam Ali Saad <arqam.ali16@gmail.com>
+ * Dashboard
+ */
 import React, { useEffect, useState } from "react";
 import _ from "lodash";
 import {
@@ -16,8 +20,7 @@ import {
   Typography,
 } from "antd";
 import moment from "moment";
-
-import { useValues, useActions } from "kea";
+import { useValues } from "kea";
 import { CloseCircleFilled, FilterFilled } from "@ant-design/icons";
 
 import Logo from "../Assets/etisalat_digital.png";
