@@ -15,6 +15,11 @@ Installs all the required dependencies.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+## Hosting
+
+Application is hosted on Heruko \
+Hosted link: https://etisalat-assignment.herokuapp.com/
+
 ## Login Credentials
 
 Email: arqam.ali16@gmail.com \
